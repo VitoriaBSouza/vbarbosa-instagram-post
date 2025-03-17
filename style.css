@@ -23,27 +23,33 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
     background-color: rgba(13, 13, 143, 0.374);
     overflow: scroll;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -66,50 +72,61 @@ table {
       "wdth" 100,
       "GRAD" 0;
 }
+
 .card-header{
     background-color: white;
     display: flex;
     justify-content: space-between;
 }
+
 .post-header{
     align-self: left;
     display: flex;
     margin: 5px;
 }
+
 .post-logo{
     margin-right: 5px;
 }
+
 .post-user {
     display: grid;
     padding: 5px;
 }
+
 h2 {
     font-weight: 500;
     font-size: 12px;
 }
+
 h3{
     font-weight: 400;
     font-size: 10px;
 }
+
 .post-img{
     background-color: red;
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
 img {
     width: 100%;
     height: 100%;
 }
+
 .card-buttons{
     display: flex;
     margin: 5px;
     justify-content: space-between;
 }
+
 .buttons1 {
     display: flex;
     justify-content: space-around;
 }
+
 .post-body{
     font-size: 12px;
     height: 150px;
@@ -117,6 +134,7 @@ img {
     align-items: center;
 
 }
+
 p{
     margin: 10px;
     padding: 7px;
@@ -126,6 +144,7 @@ p{
     overflow: hidden;
     font-weight: 300;
 }
+
 span{
     font-weight: bold;
 }
